@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Bus Ticket</title>
+    <title>Bus Ticket</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="w-9/12 mx-auto">
     <header>
-        <nav>
+        <nav class="w-9/12 items-center mx-auto">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -27,7 +27,7 @@
                       <li><a>Search</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-xl">daisyUI</a>
+                  <a class="btn btn-ghost text-xl">P Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
@@ -46,5 +46,97 @@
               </div>
         </nav>
     </header>
+    <main>
+        <section class="mx-auto w-9/12 ">
+            <section
+                class="bg-[url('/images/banner.png')] py-40 justify-center items-center rounded-3xl mt-5 bg-no-repeat bg-center bg-cover ">
+                <div class="text-center text-white  space-y-5">
+                    <h1 class="text-6xl font-bold">End-to-End Travel with <br><span>P Paribahan</span></h1>
+                    <div>
+                        <p>Yes, you can run unit tests and view the results directly within the app. The <br>integrated testing features allow for a streamlined .</p>
+                    </div>
+                    <button class="btn bg-green-500">Buy Tickets</button>
+                </div>
+            </section>
+
+            <section class="lg:grid lg:grid-cols-3 -translate-y-10 mx-20 gap-5">
+                <div
+                    class="flex items-center  justify-center rounded-xl bg-white p-3 border-b-4 border-green-500">
+                    <div>
+                        <img src="./images/people.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-extrabold">500K+</h3>
+                        <h1>Registered users</h1>
+                    </div>
+                </div>
+                <div
+                    class="flex items-center gap-4 justify-center rounded-xl bg-white  border-b-4 border-green-500">
+                    <div>
+                        <img src="./images/ticket-cupon.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-extrabold">1.7 lacks</h3>
+                        <h1>Tickets sold</h1>
+                    </div>
+                </div>
+                <div
+                    class="flex items-center justify-center gap-4  rounded-xl bg-white  border-b-4 border-green-500">
+                    <div>
+                        <img src="./images/stoppage.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-extrabold">80K+</h3>
+                        <p>Rental partners</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="my-5 text-center">
+                <h3 class="font-bold text-center text-6xl ">Best offers for you</h3>
+                <section class="mb-10 lg:flex lg:justify-center lg:gap-10 mt-10 space-y-10">
+
+                    <div class="flex">
+                        <div class="bg-orange-400 rounded-tl-xl rounded-bl-xl flex justify-center items-center">
+                            <div class="px-3">
+                                <h3 class="text-3xl font-bold text-white">15% OFF</h3>
+                                <p class="text-xl font-bold text-white">on your next purchase</p>
+                                <p class="text-white">on your next purchase</p>
+                            </div>
+                        </div>
+                        <div class="bg-orange-400">
+                            <img src="./images/cupon-devider.png" alt="">
+                        </div>
+                        <div class="bg-orange-400 rounded-tr-lg rounded-br-lg flex justify-center items-center">
+                            <div class="px-10">
+                                <h3 class="text-4xl font-bold text-white">NEW15</h3>
+                                <p class="text-white">Coupon Code</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-red-400 rounded-tl-xl rounded-bl-xl flex justify-center items-center">
+                            <div class="px-3">
+                                <h3 class="text-4xl font-bold text-white">20% OFF</h3>
+                                <p class="text-xl font-bold text-white">on your next purchase</p>
+                                <p class="text-white">on your next purchase</p>
+                            </div>
+                        </div>
+                        <div class="bg-red-400">
+                            <img src="./images/cupon-devider.png" alt="">
+                        </div>
+                        <div class="bg-red-400 rounded-tr-lg rounded-br-lg flex justify-center items-center">
+                            <div class="px-10">
+                                <h3 class="text-4xl font-bold text-white">Couple 20</h3>
+                                <p class="text-white">Coupon Code</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <button class="rounded-xl p-4 bg-white border-2 border-green-500 text-center">See All Offers</button>
+            </section>
+        </section>
+    </main>
 </body>
 </html>
